@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import 'intl-tel-input/build/css/intlTelInput.css'; */
+/* @import 'node_modules/nunito-fontface/css/nunito/nunito-fontface.css'; */
+@import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css";
+
+/* @import 'intl-tel-input/build/css/intlTelInput.css';
+@import 'node_modules/nunito-fontface/css/nunito/nunito-fontface.css'; */
+
+body { margin: 0; }
+
+.mat-step-header .mat-step-icon {
+    background-color: rgb(249, 55, 66);
+}
+
+.mat-slide-toggle.mat-primary.mat-checked:not(.mat-disabled) .mat-slide-toggle-thumb{
+    background-color: rgb(46,204,113);
+}
+
+.mat-slide-toggle.mat-primary.mat-checked:not(.mat-disabled) .mat-slide-toggle-bar{
+    background-color: #a3d886;
+}
+
+*{
+    font-family: 'Nunito', 'Glyphicons Halflings'
+}
