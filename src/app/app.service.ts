@@ -35,13 +35,11 @@ export class AppService {
     return body || { };
   }
 
-   //varify admin user
-   getLoggeddUser(): Observable<any> {          
-        
-    const url ='/pingUser/getVerify';
-    return this.http.get(url, httpOptions)
-      .pipe(
-        catchError(this.handleError)
-      );
-  }
+  
 }
+
+
+
+
+
+

@@ -47,14 +47,14 @@ export class RegisterService {
   //   .post("http://127.0.0.1:4000/register",body,{headers:header})
   //   .map(res=>res.json());
   // }
-  // postPingUserDetails(data): Observable<any> {
-  //   console.log('i m in',data);
-  //   const url ='/user/register';
-  //   return this.http.post(url, data, httpOptions)
-  //     .pipe(
-  //       catchError(this.handleError)
-  //     );
-  // }
+  postPingUserDetails(data): Observable<any> {
+    console.log('i m in',data);
+    const url ='/user/register';
+    return this.http.post(url, data)
+      .pipe(
+        catchError(this.handleError)
+      );
+  }
   
   // deletePingUserNew(id: string): Observable<{}> {
   //   const url = `${PingUserRole}/${id}`;
